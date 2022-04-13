@@ -1,0 +1,29 @@
+$ sudo apt update
+
+$ sudo apt install docker.io
+
+$ sudo systemctl status docker
+
+$ sudo docker pull hello-world
+
+$ sudo docker run hello-world
+
+$ sudo docker pull nginx
+
+$ sudo docker run --name webserver -d -p 8000:80 nginx:latest
+
+$ sudo docker ps
+
+$ sudo git clone link paste
+
+$ ls
+
+$ cd webapp
+
+$ sudo docker build -t webapp
+
+$ sudo docker images
+
+$sudo docker run --name expressserver -d -p 8081:8081 webapp
+
+$ sudo docker ps
